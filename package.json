@@ -1,0 +1,24 @@
+{
+  "name": "mern-docker-example",
+  "version": "1.0.0",
+  "description": "Simple sample to containerize a Node.js app which make use of a MongoDb",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgerle/mern-docker-example.git"
+  },
+  "author": "Jan Gerle",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jgerle/mern-docker-example/issues"
+  },
+  "homepage": "https://github.com/jgerle/mern-docker-example#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
